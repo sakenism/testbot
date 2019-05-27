@@ -69,7 +69,7 @@ def location(update, context):
 
 def skip_location(update, context):
     user = update.message.from_user
-    logger.info("User %s did not send a location.", user.first_name)
+    logger.info("User %s did not Send a location.", user.first_name)
     update.message.reply_text('You seem a bit paranoid! '
                               'At last, tell me something about yourself.')
 
